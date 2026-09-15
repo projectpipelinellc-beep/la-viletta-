@@ -1,0 +1,40 @@
+<!-- PLACEHOLDER IMAGE: replace with a real photo of a whole La Villetta pizza pie, fresh out of the oven. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" width="900" height="1080" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c1f1f"/>
+      <stop offset="1" stop-color="#2a2420"/>
+    </linearGradient>
+    <radialGradient id="fpGlow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#e8c98a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#e8c98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1080" fill="url(#fpBg)"/>
+  <rect width="900" height="1080" fill="url(#fpGlow)"/>
+
+  <g transform="translate(450,470)" opacity="0.92" stroke="#f1e4c3" fill="none">
+    <circle r="270" stroke-width="4"/>
+    <circle r="218" stroke-width="2" opacity="0.6"/>
+    <g stroke-width="2" opacity="0.55">
+      <line x1="0" y1="-270" x2="0" y2="270"/>
+      <line x1="-270" y1="0" x2="270" y2="0"/>
+      <line x1="-191" y1="-191" x2="191" y2="191"/>
+      <line x1="-191" y1="191" x2="191" y2="-191"/>
+    </g>
+    <g fill="#f1e4c3" stroke="none" opacity="0.85">
+      <circle cx="-90" cy="-70" r="9"/>
+      <circle cx="60" cy="-110" r="9"/>
+      <circle cx="130" cy="30" r="9"/>
+      <circle cx="40" cy="120" r="9"/>
+      <circle cx="-110" cy="90" r="9"/>
+      <circle cx="-40" cy="10" r="9"/>
+      <circle cx="150" cy="-90" r="9"/>
+      <circle cx="-150" cy="-30" r="9"/>
+    </g>
+  </g>
+
+  <g opacity="0.3" stroke="#bf9a4f" stroke-width="2" fill="none">
+    <path d="M60 980 q80 -50 170 0 q80 40 170 0 q80 -40 170 0 q80 40 170 0"/>
+  </g>
+</svg>

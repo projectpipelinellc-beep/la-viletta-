@@ -2,7 +2,17 @@ import { contact, featuredCategories } from '../data/site.js';
 import Reveal from './Reveal.jsx';
 import './Featured.css';
 
+function ArrowIcon() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+      <path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export default function Featured() {
+  const [highlight, ...rest] = featuredCategories;
+
   return (
     <section id="favorites" className="section featured">
       <div className="container">
@@ -15,26 +25,59 @@ export default function Featured() {
           </p>
         </div>
 
-        <div className="featured-grid">
-          {featuredCategories.map((category, index) => (
-            <Reveal as="article" key={category.id} className="featured-card" delay={index * 60}>
-              <div className="featured-card-media">
-                <img src={category.image} alt={category.alt} loading="lazy" width="600" height="450" />
-              </div>
-              <div className="featured-card-body">
-                <h3 className="featured-card-title">{category.name}</h3>
-                <p className="featured-card-desc">{category.description}</p>
+        <div className="featured-highlight-grid">
+          <Reveal as="article" className="featured-highlight">
+            <div className="featured-highlight-media">
+              {/* PLACEHOLDER: replace with a real photo of a whole La Villetta pizza pie */}
+              <img
+                src="/images/placeholders/featured-pizza.svg"
+                alt={highlight.alt}
+                loading="lazy"
+                width="900"
+                height="1080"
+              />
+            </div>
+            <div className="featured-highlight-body">
+              <p className="featured-highlight-tag">House Specialty</p>
+              <h3 className="featured-highlight-title">{highlight.name}</h3>
+              <p className="featured-highlight-desc">{highlight.description}</p>
+              <a
+                href={contact.orderUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-sm featured-highlight-link"
+              >
+                View Full Menu
+              </a>
+            </div>
+          </Reveal>
+
+          <Reveal delay={100}>
+            <h3 className="featured-list-heading">More to Love</h3>
+            <div className="featured-list">
+              {rest.map((category, index) => (
                 <a
+                  key={category.id}
                   href={contact.orderUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-link featured-card-link"
+                  className="featured-list-item"
+                  aria-label={`${category.name} — View Full Menu`}
                 >
-                  View Full Menu
+                  <span className="featured-list-index" aria-hidden="true">
+                    {String(index + 2).padStart(2, '0')}
+                  </span>
+                  <span className="featured-list-text">
+                    <span className="featured-list-name">{category.name}</span>
+                    <span className="featured-list-desc">{category.description}</span>
+                  </span>
+                  <span className="featured-list-arrow">
+                    <ArrowIcon />
+                  </span>
                 </a>
-              </div>
-            </Reveal>
-          ))}
+              ))}
+            </div>
+          </Reveal>
         </div>
 
         <p className="featured-footnote">
