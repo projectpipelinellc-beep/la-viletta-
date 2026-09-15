@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c1f1f"/>
+      <stop offset="1" stop-color="#3a2420"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#bf9a4f" stroke-width="2"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="72" font-weight="700" fill="#faf3e6">La Villetta</text>
+  <text x="600" y="365" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="40" font-weight="600" fill="#f1e4c3">Pizza &amp; Pasta</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="3" font-size="18" fill="#e7c9c9">JEFFERSON VALLEY, NY</text>
+</svg>

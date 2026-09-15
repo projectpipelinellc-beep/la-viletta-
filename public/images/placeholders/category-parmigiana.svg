@@ -1,0 +1,16 @@
+<!-- PLACEHOLDER IMAGE: replace with a real photo of La Villetta's chicken or shrimp parmigiana. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a2f2f"/>
+      <stop offset="1" stop-color="#3a2420"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g3)"/>
+  <g transform="translate(300,225)" opacity="0.9">
+    <circle r="120" fill="none" stroke="#f1e4c3" stroke-width="4"/>
+    <ellipse cx="0" cy="0" rx="70" ry="45" fill="none" stroke="#f1e4c3" stroke-width="4"/>
+    <line x1="-160" y1="-70" x2="-120" y2="-20" stroke="#f1e4c3" stroke-width="5" stroke-linecap="round"/>
+    <line x1="160" y1="-70" x2="120" y2="-20" stroke="#f1e4c3" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

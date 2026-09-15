@@ -1,0 +1,25 @@
+<!-- PLACEHOLDER IMAGE: replace with a real cinematic photo of a La Villetta pizza, pasta dish, or dining room. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2420"/>
+      <stop offset="0.55" stop-color="#5c2424"/>
+      <stop offset="1" stop-color="#7c1f1f"/>
+    </linearGradient>
+    <radialGradient id="heroVignette" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#heroBg)"/>
+  <g opacity="0.12" stroke="#f1e4c3" stroke-width="2" fill="none">
+    <circle cx="1180" cy="360" r="230"/>
+    <circle cx="1180" cy="360" r="170"/>
+    <path d="M1180 130 a230 230 0 0 1 0 460" />
+  </g>
+  <g opacity="0.16" stroke="#bf9a4f" stroke-width="3" fill="none">
+    <path d="M120 860 q60 -70 140 -20 q60 40 130 -10 q60 -40 130 10" />
+    <path d="M120 900 q60 -70 140 -20 q60 40 130 -10 q60 -40 130 10" />
+  </g>
+  <rect width="1600" height="1000" fill="url(#heroVignette)"/>
+</svg>

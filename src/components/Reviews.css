@@ -1,0 +1,74 @@
+.reviews {
+  background: var(--cream-deep);
+}
+
+.reviews-ratings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 48px;
+}
+
+.reviews-rating-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  font-weight: 700;
+  font-size: 0.96rem;
+  color: var(--charcoal);
+  box-shadow: var(--shadow-soft);
+}
+
+.reviews-rating-pill .stars {
+  color: var(--gold);
+  letter-spacing: 1px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 26px;
+}
+
+.review-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 32px 28px;
+  box-shadow: var(--shadow-soft);
+  position: relative;
+}
+
+.review-card::before {
+  content: '\201C';
+  font-family: var(--font-display);
+  font-size: 3.4rem;
+  color: var(--gold-soft);
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  line-height: 1;
+}
+
+.review-quote {
+  position: relative;
+  font-family: var(--font-display);
+  font-size: 1.14rem;
+  font-style: italic;
+  color: var(--charcoal);
+  line-height: 1.5;
+  z-index: 1;
+}
+
+.review-author {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--olive-deep);
+  letter-spacing: 0.02em;
+}

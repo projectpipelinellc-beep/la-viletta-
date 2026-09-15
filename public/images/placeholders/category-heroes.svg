@@ -1,0 +1,16 @@
+<!-- PLACEHOLDER IMAGE: replace with a real photo of a La Villetta hero sandwich. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6b7a45"/>
+      <stop offset="1" stop-color="#38451f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g4)"/>
+  <g transform="translate(300,225)" opacity="0.9" stroke="#f1e4c3" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M-160 -30 Q0 -80 160 -30"/>
+    <line x1="-160" y1="0" x2="160" y2="0"/>
+    <line x1="-160" y1="22" x2="160" y2="22"/>
+    <path d="M-160 44 Q0 80 160 44"/>
+  </g>
+</svg>

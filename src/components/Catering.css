@@ -1,0 +1,55 @@
+.catering {
+  background: var(--cream);
+}
+
+.catering-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (min-width: 860px) {
+  .catering-grid {
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 64px;
+  }
+}
+
+.catering-media {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lift);
+}
+
+.catering-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.catering-eyebrow {
+  color: var(--olive);
+}
+
+.catering-copy {
+  margin-top: 20px;
+  color: var(--charcoal-soft);
+  font-size: 1.08rem;
+  max-width: 520px;
+}
+
+.catering-actions {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.catering-note {
+  margin-top: 22px;
+  font-size: 0.9rem;
+  color: var(--charcoal-soft);
+}

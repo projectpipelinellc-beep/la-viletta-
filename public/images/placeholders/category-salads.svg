@@ -1,0 +1,15 @@
+<!-- PLACEHOLDER IMAGE: replace with a real photo of a La Villetta salad. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c9457"/>
+      <stop offset="1" stop-color="#4b5a34"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g5)"/>
+  <g transform="translate(300,225)" opacity="0.9" fill="none" stroke="#faf3e6" stroke-width="4">
+    <path d="M-140 30 A140 90 0 0 0 140 30" />
+    <path d="M-30 -10 Q-10 -60 20 -20 Q50 -55 60 -5" stroke-linecap="round"/>
+    <path d="M-70 -5 Q-55 -45 -25 -15" stroke-linecap="round"/>
+  </g>
+</svg>

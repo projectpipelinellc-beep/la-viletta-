@@ -1,0 +1,35 @@
+.floating-order-button {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 170;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 24px;
+  border-radius: 999px;
+  background: var(--red);
+  color: var(--paper);
+  font-weight: 700;
+  box-shadow: var(--shadow-lift);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background-color 0.2s ease;
+  pointer-events: none;
+}
+
+.floating-order-button.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.floating-order-button:hover {
+  background: var(--red-deep);
+}
+
+@media (min-width: 960px) {
+  .floating-order-button {
+    display: inline-flex;
+  }
+}

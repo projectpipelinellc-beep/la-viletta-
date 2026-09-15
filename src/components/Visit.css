@@ -1,0 +1,139 @@
+.visit {
+  background: var(--paper);
+}
+
+.visit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 900px) {
+  .visit-grid {
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 56px;
+  }
+}
+
+.visit-heading {
+  margin-bottom: 6px;
+}
+
+.visit-block {
+  margin-top: 30px;
+}
+
+.visit-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--olive-deep);
+  margin-bottom: 8px;
+}
+
+.visit-address {
+  font-size: 1.08rem;
+  line-height: 1.55;
+  color: var(--charcoal);
+}
+
+.visit-address strong {
+  font-family: var(--font-display);
+  font-size: 1.22rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.visit-phone {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--red-deep);
+}
+
+.visit-note {
+  margin-top: 14px;
+  font-size: 0.94rem;
+  color: var(--charcoal-soft);
+  max-width: 440px;
+  padding: 14px 16px;
+  background: var(--olive-soft);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--olive);
+}
+
+.visit-actions {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.visit-hours {
+  margin-top: 34px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 24px 26px;
+  background: var(--cream);
+}
+
+.visit-hours-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.visit-hours-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.visit-hours-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.94rem;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.visit-hours-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.visit-hours-day {
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.visit-hours-value {
+  color: var(--charcoal-soft);
+}
+
+.visit-hours-fallback {
+  margin-top: 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--red-deep);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.visit-map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lift);
+  height: 100%;
+  min-height: 420px;
+  display: flex;
+}
+
+.visit-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  border: 0;
+}
